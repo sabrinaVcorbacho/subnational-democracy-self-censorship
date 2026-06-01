@@ -1,9 +1,6 @@
 How Local Regime Type Shapes Political Expression: Self-Censorship in
 Argentina’s Subnational Units
 ================
-
-# How Local Regime Type Shapes Political Expression: Self-Censorship in Argentina’s Subnational Units
-
 A reproducible computational social science project combining survey
 data and province-level democratic indicators to examine political
 expression and self-censorship across Argentina.
@@ -157,7 +154,7 @@ quality. Respondents in more democratic provinces are more likely to
 report talking about politics with others, consistent with lower levels
 of conversational self-censorship.
 
-`{r main-result-dv1, echo=FALSE, out.width="85%", fig.align="center"} knitr::include_graphics("outputs/figures/predicted_probability_dv1_talk_by_sdi.png")`
+![Predicted probability of talking about politics across levels of subnational democracy](outputs/figures/predicted_probability_dv1_talk_by_sdi.png)
 
 ## Additional Result: Survey-Based Self-Censorship Across Political Domains
 
@@ -172,7 +169,7 @@ appears for online political action items. This suggests that
 survey-based self-censorship is not uniform across sensitive political
 topics.
 
-`{r additional-result-dv2, echo=FALSE, out.width="95%", fig.align="center"} knitr::include_graphics("outputs/figures/predicted_probability_dv2_nonresponse_by_sdi.png")`
+![Predicted probability of item nonresponse across political domains and levels of subnational democracy](outputs/figures/predicted_probability_dv2_nonresponse_by_sdi.png)
 
 ## Repository Structure
 
