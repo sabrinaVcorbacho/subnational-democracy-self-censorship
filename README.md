@@ -173,14 +173,16 @@ topics.
 
 ## Repository Structure
 
-    ├── data/       Documentation of data sources and local folders for raw and processed files
-    ├── scripts/    Reproducible R workflow: data preparation, descriptive analysis, models,
-    │               robustness checks, and predicted probabilities
-    ├──outputs/tables/
-      ├── dv1_conversational_self_censorship_models.pdf
-      ├── dv2_survey_based_self_censorship_by_domain.pdfgit add 
-      └── robustness_check_results.pdf
-    └── docs/       Methodological notes, variable construction, and research design documentation
+```text
+├── data/       Data source documentation and local folder structure for non-public files
+├── scripts/    Reproducible R workflow for data preparation, modeling, robustness checks,
+│               and predicted probability estimation
+├── outputs/    Selected figures and model result tables generated from the analysis
+├── docs/       Methodological documentation on variable construction and measurement
+└── thesis/     Publication information and access to the full thesis on ScholarWorks
+```
+
+Original survey microdata and processed analytical datasets are not included in this public repository. The `data/` directory documents the source files required for local reproduction, while `docs/` provides additional information on variable construction and operationalization.
 
 ## Tools and Techniques
 
@@ -198,16 +200,13 @@ topics.
 
 ## Academic Context
 
-This project was developed as my master’s thesis for the MS in Data
-Analytics and Computational Social Science at the University of
-Massachusetts Amherst.
+This project was developed as my master's thesis for the **MS in Data Analytics and Computational Social Science** at the **University of Massachusetts Amherst**.
 
-Thesis title: How Local Regime Type Shapes Political Expression:
-Self-Censorship in Argentina’s Subnational Units
+It applies computational social science and quantitative political behavior methods to examine how democratic variation within a nationally democratic country relates to individual-level political self-censorship.
 
-The thesis applies computational social science and quantitative
-political behavior methods to the study of democratic variation within
-countries.
+The complete thesis is published in the University of Massachusetts Amherst institutional repository:
+
+[Access the full thesis on ScholarWorks](https://doi.org/10.7275/58059)
 
 ## Author 
 
