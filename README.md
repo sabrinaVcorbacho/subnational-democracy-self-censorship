@@ -1,9 +1,14 @@
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
 How Local Regime Type Shapes Political Expression: Self-Censorship in
-Argentina’s Subnational Units
-================
-A reproducible computational social science project combining survey
-data and province-level democratic indicators to examine political
-expression and self-censorship across Argentina.
+Argentina’s Subnational Units ================ A reproducible
+computational social science project combining survey data and
+province-level democratic indicators to examine political expression and
+self-censorship across Argentina.
 
 ## Abstract
 
@@ -39,11 +44,12 @@ self-censorship in Argentina’s provinces?
 
 This project uses two main data sources:
 
-- World Values Survey Wave 7, Argentina sample (Haerpfer et al., 2022):
-  individual-level survey data on political attitudes, behaviors, and
-  demographic characteristics.
-- Subnational Democracy Index (Gervasoni, 2018): province-level measure
-  of democratic quality and political competitiveness in Argentina.
+-   World Values Survey Wave 7, Argentina sample (Haerpfer et al.,
+    2022): individual-level survey data on political attitudes,
+    behaviors, and demographic characteristics.
+-   Subnational Democracy Index (Gervasoni, 2018): province-level
+    measure of democratic quality and political competitiveness in
+    Argentina.
 
 The analysis includes respondents from 13 Argentine subnational units
 represented in the World Values Survey sample.
@@ -57,19 +63,19 @@ represented in the World Values Survey sample.
 The project operationalizes political expression and self-censorship
 through two complementary dependent variables:
 
-- **Talking about politics (DV1):** whether respondents report
-  discussing political matters, interpreted as a measure of
-  interpersonal political expression.
-- **Nonresponse to politically sensitive survey items (DV2):** the
-  number of `NA/DK` responses within thematic groups of sensitive
-  political questions, interpreted as a probabilistic indicator of
-  expressive reticence in a private survey setting.
+-   **Talking about politics (DV1):** whether respondents report
+    discussing political matters, interpreted as a measure of
+    interpersonal political expression.
+-   **Nonresponse to politically sensitive survey items (DV2):** the
+    number of `NA/DK` responses within thematic groups of sensitive
+    political questions, interpreted as a probabilistic indicator of
+    expressive reticence in a private survey setting.
 
 For DV2, sensitive items are grouped into three political domains:
 
-- **Corruption perceptions**
-- **Offline political action**
-- **Online political action**
+-   **Corruption perceptions**
+-   **Offline political action**
+-   **Online political action**
 
 This distinction makes it possible to examine whether subnational
 democratic context is associated with interpersonal political expression
@@ -85,13 +91,14 @@ appropriate to its dependent variable.
 
 The analytical workflow includes:
 
-- Data preparation and variable construction
-- Descriptive statistics
-- Multilevel statistical modeling with province-level random intercepts
-- Individual-level and contextual controls
-- Robustness checks using alternative model specifications and
-  operationalizations
-- Predicted probability estimates and visualizations
+-   Data preparation and variable construction
+-   Descriptive statistics
+-   Multilevel statistical modeling with province-level random
+    intercepts
+-   Individual-level and contextual controls
+-   Robustness checks using alternative model specifications and
+    operationalizations
+-   Predicted probability estimates and visualizations
 
 ### DV1: Talking about Politics
 
@@ -110,9 +117,9 @@ For the second dependent variable, the analysis uses three separate
 binomial multilevel models, corresponding to distinct thematic groups of
 sensitive political items:
 
-- Corruption perceptions
-- Offline political action
-- Online political action
+-   Corruption perceptions
+-   Offline political action
+-   Online political action
 
 In each model, the outcome is the number of `NA/DK` responses within the
 thematic group relative to the total number of items in that group.
@@ -128,22 +135,22 @@ intensity or domain-specific manifestation.
 
 ## Key Findings
 
-- Higher subnational democratic quality is associated with lower
-  conversational self-censorship: respondents in more democratic
-  provinces are more likely to report talking about politics with
-  others.
-- For self-censorship operationalized through sensitive-item
-  nonresponse, the relationship with subnational democracy is weaker and
-  domain-specific, with the clearest association appearing for online
-  political action items.
-- Once individual-level controls are included, provincial democratic
-  context becomes a less consistent predictor of survey-based
-  self-censorship, while several individual-level characteristics remain
-  relevant.
-- Overall, the findings show that political self-censorship is
-  multidimensional: local regime conditions matter most for socially
-  visible political discussion, while private survey nonresponse
-  reflects a more heterogeneous form of expressive reticence.
+-   Higher subnational democratic quality is associated with lower
+    conversational self-censorship: respondents in more democratic
+    provinces are more likely to report talking about politics with
+    others.
+-   For self-censorship operationalized through sensitive-item
+    nonresponse, the relationship with subnational democracy is weaker
+    and domain-specific, with the clearest association appearing for
+    online political action items.
+-   Once individual-level controls are included, provincial democratic
+    context becomes a less consistent predictor of survey-based
+    self-censorship, while several individual-level characteristics
+    remain relevant.
+-   Overall, the findings show that political self-censorship is
+    multidimensional: local regime conditions matter most for socially
+    visible political discussion, while private survey nonresponse
+    reflects a more heterogeneous form of expressive reticence.
 
 ## Main Result: Conversational Self-Censorship
 
@@ -154,7 +161,9 @@ quality. Respondents in more democratic provinces are more likely to
 report talking about politics with others, consistent with lower levels
 of conversational self-censorship.
 
-![Predicted probability of talking about politics across levels of subnational democracy](outputs/figures/predicted_probability_dv1_talk_by_sdi.png)
+![Predicted probability of talking about politics across levels of
+subnational
+democracy](outputs/figures/predicted_probability_dv1_talk_by_sdi.png)
 
 ## Additional Result: Survey-Based Self-Censorship Across Political Domains
 
@@ -169,11 +178,13 @@ appears for online political action items. This suggests that
 survey-based self-censorship is not uniform across sensitive political
 topics.
 
-![Predicted probability of item nonresponse across political domains and levels of subnational democracy](outputs/figures/predicted_probability_dv2_nonresponse_by_sdi.png)
+![Predicted probability of item nonresponse across political domains and
+levels of subnational
+democracy](outputs/figures/predicted_probability_dv2_nonresponse_by_sdi.png)
 
 ## Repository Structure
 
-```text
+``` text
 ├── data/       Data source documentation and local folder structure for non-public files
 ├── scripts/    Reproducible R workflow for data preparation, modeling, robustness checks,
 │               and predicted probability estimation
@@ -182,37 +193,54 @@ topics.
 └── thesis/     Publication information and access to the full thesis on ScholarWorks
 ```
 
-Original survey microdata and processed analytical datasets are not included in this public repository. The `data/` directory documents the source files required for local reproduction, while `docs/` provides additional information on variable construction and operationalization.
+Original survey microdata and processed analytical datasets are not
+included in this public repository. The `data/` directory documents the
+source files required for local reproduction, while `docs/` provides
+additional information on variable construction and operationalization.
 
 ## Tools and Techniques
 
-- **Programming language:** R
-- **Data preparation and visualization:** `tidyverse`, `ggplot2`
-- **Statistical modeling:** multilevel logistic regression for
-  interpersonal political expression; binomial multilevel models for
-  domain-specific sensitive-item nonresponse
-- **Robustness checks:** single-level logistic regression for DV1 and
-  binary nonresponse operationalization for DV2
-- **Predicted probabilities:** observed-case predictions and
-  visualizations across levels of subnational democracy
-- **Reproducible research workflow:** organized scripts, documented
-  variables, and exported analytical outputs
+-   **Programming language:** R
+-   **Data preparation and visualization:** `tidyverse`, `ggplot2`
+-   **Statistical modeling:** multilevel logistic regression for
+    interpersonal political expression; binomial multilevel models for
+    domain-specific sensitive-item nonresponse
+-   **Robustness checks:** single-level logistic regression for DV1 and
+    binary nonresponse operationalization for DV2
+-   **Predicted probabilities:** observed-case predictions and
+    visualizations across levels of subnational democracy
+-   **Reproducible research workflow:** organized scripts, documented
+    variables, and exported analytical outputs
 
 ## Academic Context
 
-This project was developed as my master's thesis for the **MS in Data Analytics and Computational Social Science** at the **University of Massachusetts Amherst**.
+This project was developed as my master's thesis for the **MS in Data
+Analytics and Computational Social Science** at the **University of
+Massachusetts Amherst**.
 
-It applies computational social science and quantitative political behavior methods to examine how democratic variation within a nationally democratic country relates to individual-level political self-censorship.
+It applies computational social science and quantitative political
+behavior methods to examine how democratic variation within a nationally
+democratic country relates to individual-level political
+self-censorship.
 
-The complete thesis is published in the University of Massachusetts Amherst institutional repository:
+The complete thesis is published in the University of Massachusetts
+Amherst institutional repository:
 
 [Access the full thesis on ScholarWorks](https://doi.org/10.7275/58059)
 
-## Author 
+### Suggested Citation
 
-**Sabrina Victoria Corbacho** 
+Corbacho, Sabrina Victoria. (2026). How Local Regime Type Shapes
+Political Expression: Self-Censorship in Argentina’s Subnational Units.
+Master's thesis, University of Massachusetts Amherst. Available through
+ScholarWorks.
 
-MS in Data Analytics & Computational Social Science, University of Massachusetts Amherst
+## Author
+
+**Sabrina Victoria Corbacho**
+
+MS in Data Analytics & Computational Social Science, University of
+Massachusetts Amherst
 
 [LinkedIn](https://www.linkedin.com/in/svcorbacho/)
 
