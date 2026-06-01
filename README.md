@@ -208,17 +208,9 @@ additional information on variable construction and operationalization.
 
 ## Academic Context
 
-This project was developed as my master's thesis for the **MS in Data
-Analytics and Computational Social Science** at the **University of
-Massachusetts Amherst**.
+This project was developed as my master's thesis for the **MS in Data Analytics and Computational Social Science** at the **University of Massachusetts Amherst**.
 
-It applies computational social science and quantitative political
-behavior methods to examine how democratic variation within a nationally
-democratic country relates to individual-level political
-self-censorship.
-
-The complete thesis is published in the University of Massachusetts
-Amherst institutional repository:
+The complete thesis is available through the University of Massachusetts Amherst institutional repository:
 
 [Access the full thesis on ScholarWorks](https://doi.org/10.7275/58059)
 

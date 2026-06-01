@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated master's thesis."
+title: "How Local Regime Type Shapes Political Expression: Self-Censorship in Argentina's Subnational Units"
+authors:
+
+* family-names: "Corbacho"
+  given-names: "Sabrina Victoria"
+  date-released: 2026-02-01
+  type: thesis
+  institution:
+  name: "University of Massachusetts Amherst"
+  repository-code: "https://github.com/sabrinaVcorbacho/subnational-democracy-self-censorship"
+  url: "https://doi.org/10.7275/58059"
