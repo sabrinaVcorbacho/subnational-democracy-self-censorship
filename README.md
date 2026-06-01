@@ -206,15 +206,12 @@ The thesis applies computational social science and quantitative
 political behavior methods to the study of democratic variation within
 countries.
 
-## Author
+## Author 
 
-Sabrina Victoria Corbacho Computational Social Scientist \| AI & LLM
-Evaluation \| Mixed Methods \| Machine Learning \| NLP Buenos Aires,
-Argentina
+**Sabrina Victoria Corbacho** 
+MS in Data Analytics & Computational Social Science, University of Massachusetts Amherst [LinkedIn](https://www.linkedin.com/in/svcorbacho/)
 
-LinkedIn:
-
-## References
+## Data References
 
 Gervasoni, C. (2018). *Hybrid Regimes within Democracies: Fiscal
 Federalism and Subnational Rentier States*. Cambridge University Press.
