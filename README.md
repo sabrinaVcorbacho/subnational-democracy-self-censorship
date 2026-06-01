@@ -176,7 +176,10 @@ topics.
     ├── data/       Documentation of data sources and local folders for raw and processed files
     ├── scripts/    Reproducible R workflow: data preparation, descriptive analysis, models,
     │               robustness checks, and predicted probabilities
-    ├── outputs/    Selected tables and figures generated from the analysis
+    ├──outputs/tables/
+      ├── dv1_conversational_self_censorship_models.pdf
+      ├── dv2_survey_based_self_censorship_by_domain.pdfgit add 
+      └── robustness_check_results.pdf
     └── docs/       Methodological notes, variable construction, and research design documentation
 
 ## Tools and Techniques
