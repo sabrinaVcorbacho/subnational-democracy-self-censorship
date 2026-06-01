@@ -209,7 +209,10 @@ countries.
 ## Author 
 
 **Sabrina Victoria Corbacho** 
-MS in Data Analytics & Computational Social Science, University of Massachusetts Amherst [LinkedIn](https://www.linkedin.com/in/svcorbacho/)
+
+MS in Data Analytics & Computational Social Science, University of Massachusetts Amherst
+
+[LinkedIn](https://www.linkedin.com/in/svcorbacho/)
 
 ## Data References
 
