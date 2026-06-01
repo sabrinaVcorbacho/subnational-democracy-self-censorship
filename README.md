@@ -1,9 +1,7 @@
----
-How Local Regime Type Shapes Political Expression: Self-Censorship in
+# How Local Regime Type Shapes Political Expression: Self-Censorship in
 Argentina’s Subnational Units
----
-A reproducible
-computational social science project combining survey data and
+
+A reproducible computational social science project combining survey data and
 province-level democratic indicators to examine political expression and
 self-censorship across Argentina.
 
