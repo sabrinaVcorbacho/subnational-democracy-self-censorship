@@ -34,6 +34,10 @@ factors.
 How does local regime type shape individuals’ propensity for political
 self-censorship in Argentina’s provinces?
 
+## Theoretical Expectation
+
+Individuals living in less democratic provincial contexts are expected to exhibit higher levels of political self-censorship. This should be reflected in lower reported political discussion and greater nonresponse to politically sensitive survey items.
+
 ## Data Sources
 
 This project uses two main data sources:
